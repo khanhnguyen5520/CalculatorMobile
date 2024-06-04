@@ -26,13 +26,13 @@ class MainActivity : ComponentActivity() {
     private var firstNum: Double = 0.0
     private var secondNum: Double = 0.0
 
-    private var operation: Boolean = false  //Phải ấn số trước khi thực hiện phép toán
+    private var operation: Boolean = false
     private var isEqual: Boolean = false
     private var isDot: Boolean = true
 
     private var isDel: Boolean = false
 
-    private val pattern = "###,###,#####"
+    private val pattern = "#.##"
     private val format = DecimalFormat(pattern)
 
     private var mInterstitialAd: InterstitialAd? = null
@@ -187,7 +187,6 @@ class MainActivity : ComponentActivity() {
             }
             binding.tvResult.text = number
         }
-
         binding.btnDot.setOnClickListener {
             if (isDot){
                 number = if (number == null) "0." else "$number."
@@ -269,6 +268,4 @@ class MainActivity : ComponentActivity() {
             }
         })
     }
-
-
 }
