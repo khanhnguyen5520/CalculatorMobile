@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvShow"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center|end"
+            android:gravity="end"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center|end"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:textSize="60sp"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnC"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnDel"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/white"
+            android:text="@string/btnDiv"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnMul"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn7"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn8"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn9"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnSub"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn4"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn5"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn6"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnAdd"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn1"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn2"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn3"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="2"
+            android:backgroundTint="@color/white"
+            android:text="@string/btnEqual"
+            android:textColor="@color/orange"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnDot"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btn0"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/btnAds"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/rounded_button"
+            android:text="@string/btnInf"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+
+
+    </GridLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/9214589741"
+        />
+</LinearLayout>
