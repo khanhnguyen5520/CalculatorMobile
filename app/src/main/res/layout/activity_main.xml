@@ -267,9 +267,9 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:background="@drawable/rounded_button"
-            android:text="@string/btnInf"
-            android:textColor="@color/black"
-            android:textSize="40sp"/>
+            android:text="@string/btnAds"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
 
 
     </GridLayout>
